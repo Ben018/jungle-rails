@@ -27,6 +27,8 @@ main section.categories-show {
         color: white;
         padding: 0.375rem 0.75rem;
         font-size: 1rem;
+        display: flex;
+        justify-content: center;
         border-radius: 0.25rem;
       }
 
@@ -39,7 +41,8 @@ main section.categories-show {
       text-align: center;
       border-radius: 0.25em;
       border: 0.1em solid rgba(0, 130, 29, 0.3);
-      box-shadow: rgba(0, 130, 29, 0.16) 0px 3px 6px, rgba(0, 130, 29, 0.23) 0px 3px 6px;
+      box-shadow: rgba(0, 130, 29, 0.16) 0px 3px 6px,
+        rgba(0, 130, 29, 0.23) 0px 3px 6px;
       // transition: opacity 300ms linear;
 
       &:hover {

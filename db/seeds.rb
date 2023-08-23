@@ -213,7 +213,7 @@ cat3.products.create!({
   As a defense mechanism the Cliff Collard grows thick thorns.
   They rely on winds to carry their seeds away to reproduce. Once pollinated, they grow small, inedible fruits.",
   image: open_asset('plante_12.jpg'),
-  quantity: 23,
+  quantity: 0,
   price: 79.99
 })
 
