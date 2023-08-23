@@ -1,2 +1,19 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Admin Dashboard</h1>
+
+  <table class="table table-bordered">
+    <tr>
+      <th>Number of Products</th>
+      <th>Number of Categories</th>
+    </tr>
+
+    <tbody>
+      <td><%= @products.count %></td>
+      <td><%= @categories.count %></td>
+    </tbody>
+
+  </table>
+
+<%=link_to "Products Maintenance", admin_products_path, class: 'btn btn-lg btn-primary'%>
+
+<%# Display a count of how many products are in the database
+Display a count of how many categories are in the database %>
